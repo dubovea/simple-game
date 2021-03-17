@@ -5,15 +5,15 @@ var ctx = canvas.getContext("2d");
 var ballRadius = 10;
 var x = canvas.width / 2;
 var y = canvas.height - 30;
-var dx = 2;
-var dy = -2;
+var dx = 6;
+var dy = -6;
 var paddleHeight = 10;
 var paddleWidth = 75;
 var paddleX = (canvas.width - paddleWidth) / 2;
 var rightPressed = false;
 var leftPressed = false;
 var brickRowCount = 11;
-var brickColumnCount = 3;
+var brickColumnCount = 6;
 var brickWidth = 75;
 var brickHeight = 20;
 var brickPadding = 10;
@@ -160,8 +160,8 @@ function draw() {
       } else {
         x = canvas.width / 2;
         y = canvas.height - 30;
-        dx = 17 / lives;
-        dy = -17 / lives;
+        dx = 50 / lives;
+        dy = -50 / lives;
         paddleX = (canvas.width - paddleWidth) / 2;
       }
     }
