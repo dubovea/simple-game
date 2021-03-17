@@ -155,7 +155,7 @@ function draw() {
     } else {
       lives--;
       if (!lives) {
-        alert("GAME OVER");
+        alert("СОСИ ЖОПУ ЛОХ");
         document.location.reload();
       } else {
         x = canvas.width / 2;
